@@ -43,6 +43,6 @@ public final class SimpleController implements Controller {
         if (this.string.isEmpty()) {
             throw new IllegalStateException();
         }
-        System.out.println(this.string);
+        IO.println(this.string);
     }
 }

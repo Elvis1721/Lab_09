@@ -73,12 +73,19 @@ public final class SimpleGUI {
     }
 
     /**
+     * Set visible the frame.
+     */
+    public void setVisibility() {
+        this.frame.setVisible(true);
+    }
+
+    /**
      * Main method.
      * 
      * @param args of the main.
      */
     public static void main(final String[] args) {
-        new SimpleGUI();
+        new SimpleGUI().setVisibility();
     }
 
 }
